@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #car1 {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 0;
+            top: 40%;
+            transition: right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+        }
+
+
+        #car2 {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transition: top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s;
+        }
+
+        #car1.moving {
+            right: 400px;
+
+        }
+
+        #car2.moving {
+            top: 400px;
+
+        }
+
+
+        /* .animate{
+            tr
+        } */
+    </style>
+</head>
+
+<body>
+
+
+    <img id="car1" src="car1.png" />
+    <img id="car2" src="car2.png" />
+
+</body>
+
+</html>

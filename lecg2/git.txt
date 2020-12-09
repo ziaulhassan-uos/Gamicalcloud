@@ -1,0 +1,15 @@
+git init
+<only one time>
+
+git add .
+git commit -m <your msg>
+
+want to uplod 
+git push origin master
+
+want to download
+git pull origin master
+
+
+git checkout -b <branchname>
+git checkout <branchname>

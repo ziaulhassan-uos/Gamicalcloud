@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.car{
+    animation: car 17s linear infinite ;
+    position: absolute;
+    width: 100%;
+}
+@keyframes car{
+    0%   { left:0px;}
+    25%  { left:25%;}
+    50%   { left:50%;}
+    75%   { left:75%;}
+    100%  { left:100%;}
+  
+}
+.back{
+    position: absolute;
+    top: 70px;
+    left: 49px;
+    animation: back 17s linear infinite;
+}
+@keyframes back{
+   
+   
+    100%  { transform: rotate(360deg); left: 100% ; transform: translateX(100%);}
+  
+   
+    
+}
+
+.front{
+    position: absolute;
+    top: 70px;
+    left: 218px;
+    animation: front 15s linear infinite;
+}
+@keyframes front{
+   
+   
+    100%  { transform: rotate(360deg); left: 100% ; transform: translateX(100%);}
+  
+   
+    
+}

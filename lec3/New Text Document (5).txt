@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+        div{
+            width:100px;
+            height: 100px;
+            background: orange;
+            position: absolute;
+            right:0;            
+            transition: right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, background 7s linear 0s;
+        }
+
+
+        .moving{
+            right:1000px;
+            background: red;
+        }
+
+
+        /* .animate{
+            tr
+        } */
+
+    </style>
+</head>
+<body>
+
+    <div id="some">
+
+    </div>
+    <!-- <img id="some" src="truck.png" /> -->
+    
+</body>
+</html>

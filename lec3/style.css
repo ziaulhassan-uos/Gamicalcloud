@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.chor img{
+    transition: right 2s ease-in-out 0s; 
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    top:60%;
+    z-index: 4;
+}
+.chor img:hover{
+    right: 600px;
+ 
+}
+
+.road img{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 100px;
+    top:63%
+}
+.police img{
+    transition: top 2s ease-in-out 0s; 
+    transform:  rotate(90deg) scale(2) skew(20deg,1);
+    
+    z-index: 3;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 30%;
+    top: 0px
+}
+
+.police img:hover{
+     top:500px;
+     
+}
+.policeroad img{   
+    z-index: 2; 
+    transform: rotate(90deg)  scale(7.5,1) ;
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     left: 30%;
+     top: 0px
+    
+}

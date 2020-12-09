@@ -1,0 +1,184 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body{
+
+   
+}
+.container{
+    background-color: red;
+   width: 100%;
+   position: relative;
+}
+.header{
+    background-color: green;
+    width: 100%;
+    height: 200px;
+}
+.sidebar{
+    background-color: yellow;
+    width: 20%;
+    height: 60vh;
+    border: 1px solid yellow;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.footer{
+    background-color: grey ;
+    width: 100%;
+    height: 150px;
+    position: relative;
+
+}
+.content{
+    background-color: hotpink;
+    width: calc(80% -20px);
+    height: 400px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    right:0px;
+    margin: auto;
+    margin-left: calc(20% + 20px);
+    margin-right: 10px ;
+}
+.box1{
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+    margin: 10px ;
+    display: inline-block;
+    position: absolute;
+  
+
+}
+
+.box2{
+    background-color:greenyellow;
+    height: 300px;
+    width: 200px;
+    margin: 40px ;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.box3{
+    background-color: green;
+    height: 300px;
+    width: 200px;
+    margin: 70px ;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.box4{
+    background-color: orange;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    display: inline-block;
+    margin: 120px ;
+
+
+} */
+/* 
+.container{    
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    flex-grow: 1;
+    
+    
+   
+}
+.box:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    text-align: center;
+    
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    display: grid;
+    border: 1px solid skyblue;
+    width: 100%;
+    height: 100vh;
+    grid-template: 
+     "a1 a2 a3 "
+     "a1 a5 a3 "
+     "a4 a4 a4  "
+
+     
+}
+.child:nth-child(1){
+    grid-area: a1;
+    background-color: red;
+    margin:5px;
+    border: 3px solid black;
+}
+
+.child:nth-child(2){
+    grid-area: a2;
+    background-color: green;
+    margin: 5px;
+    border: 3px solid black;
+
+}
+
+.child:nth-child(3){
+    grid-area: a3;
+    background-color: blue;
+    margin: 5px;
+    border: 3px solid black;
+
+}
+.child:nth-child(4){
+    background-color:orange;
+    margin: 5px;
+    border: 3px solid black;
+
+    grid-area: a4;
+}
+.child:nth-child(5){
+    background-color: purple;
+    margin: 5px;
+    border: 3px solid black;
+
+    grid-area: a5;
+}
+/* .child:nth-child(6){
+    background-color: maroon;
+    margin: 10px;
+    border: 3px solid black;
+
+    grid-area: a6;
+} */
