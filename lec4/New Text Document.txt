@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* header {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+        }
+
+        header>div:nth-child(3) {
+            grid-column: 4;
+        } */
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 50px 350px 50px;
+        }
+
+        header {
+            grid-column: span 12;
+        }
+
+
+        aside {
+            grid-column: span 2;
+        }
+
+        main {
+            grid-column: span 10;
+        }
+
+
+        footer {
+            grid-column: span 12;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <header>Header</header>
+        <aside>Menu</aside>
+        <main>Content</main>
+        <footer>Footer</footer>
+
+    </div>
+
+    <!-- <header>
+        <div>Home</div>
+        <div>Search</div>
+        <div>Logout</div>
+    </header> -->
+
+</body>
+
+</html>

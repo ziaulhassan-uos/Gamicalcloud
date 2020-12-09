@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/regular.css">
+    <link rel="stylesheet" href="css/solid.css">
+
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        header {
+            height: 50px;
+            background: #ff7101;
+        }
+
+        .logo {
+            width: 70px;
+            vertical-align: middle;
+            position: relative;
+            top: -12px;
+
+        }
+
+        nav {
+            width: 90%;
+            margin: auto;
+            padding-top: 4px;
+        }
+
+
+
+        nav h3 {
+            display: inline-block;
+            position: relative;
+            top: -6px;
+            color: white;
+            font-weight: bolder;
+            text-transform: uppercase;
+            /* font-family: Arial, Helvetica, sans-serif */
+        }
+
+        nav ol {
+            margin: 0;
+            position: relative;
+            top: -8px;
+        }
+
+        nav ol,
+        nav li {
+            display: inline-block;
+        }
+
+        nav li {
+            margin-left: 26px;
+        }
+
+        nav ol {
+            margin-left: 20%;
+        }
+
+        nav a {
+            font-size: 1;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            float: right;
+            margin-top: 13px;
+        }
+
+        .social-icons i {
+            background-color: wheat;
+            padding: 4px;
+            color: #ff7101;
+            margin-left: 12px;    
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img class="logo" src="logo.png" />
+            <h3>Your logo</h3>
+            <ol>
+                <li><a href='#'>HOME</a></li>
+                <li><a href='#'>ABOUT</a></li>
+                <li><a href='#'>SERVICES</a></li>
+                <li><a href='#'>CONTACT</a></li>
+            </ol>
+
+            <div class="social-icons">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-search"></i>
+                <i class="fa fa-search"></i>
+            </div>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>
