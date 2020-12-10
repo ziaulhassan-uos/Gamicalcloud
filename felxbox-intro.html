@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+        body {
+            box-sizing: inherit;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 3rem;
+            color: white;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .row > *{
+            margin-bottom: 1rem;
+        }
+        .a, .h {
+            width: 66%;
+        }
+        .b, .d, .e, .f, .g {
+            width: 32%;
+        }
+        .c {
+            width: 100%;
+        }
+        .a, .h {
+            background-color: rgb(255, 179, 3);
+        }
+        .b {
+            background-color: rgb(136, 18, 62);
+        }
+        .c {
+            background-color: rgb(77, 41, 121);
+        }
+        .d {
+            background-color: rgb(32, 70, 128);
+        }
+        .e {
+            background-color: rgb(80, 179, 177);
+        }
+        .f {
+            background-color: rgb(173, 93, 122);
+        }
+        .g {
+            background-color: rgb(166, 151, 188);
+        }
+    </style>
+    <div class="row">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="g">G</div>
+        <div class="h">H</div>
+    </div>
+    <div class="container">
+        <div class="1">1</div>
+        <div class="1">1</div>
+        <div class="1">1</div>
+    </div>
+</body>
+</html>
